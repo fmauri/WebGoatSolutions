@@ -92,9 +92,19 @@ work in progress
 #### 2
 * tom cat
 #### 3
-* developer tools, send request, two attributes are userid and role
+* Intercept http request
+```json
+{
+  "role": 3,
+  "color": "yellow",
+  "size": "small",
+  "name": "Tom Cat",
+  "userId": "2342384"
+}
+```
+* Missing fields are `role` and `userId`
 #### 4
-* WebGoat/IDOR/profile/2343484
+* Intercept HTTP, path to profile `WebGoat/IDOR/profile/2342384`
 ### Missing Function Level Access Control
 ## Insecure Communication
 ### Insecure Login
