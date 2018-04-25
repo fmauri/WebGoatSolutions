@@ -74,8 +74,32 @@ work in progress
 ---
 ## Coss-Site Scripting (XSS) [ ]
 ### Cross Site Scripting
+#### 1
+* Yes
+#### 2
+* Credit card number entry
+```js
+`4128 3214 0002 1999<script>alert('my javascript here');</script>`
+```
+#### 3
 ## Access Control Flaws
 ### Insecure Direct Object References
+#### 1
+* Just log in with the credentials `tom`/`cat`, as instructed.
+#### 2
+* Intercept http request
+```json
+{
+  "role": 3,
+  "color": "yellow",
+  "size": "small",
+  "name": "Tom Cat",
+  "userId": "2342384"
+}
+```
+* Missing fields are `role` and `userId`
+#### 3
+* Intercept HTTP, path to profile `WebGoat/IDOR/profile/2342384`
 ### Missing Function Level Access Control
 ## Insecure Communication
 ### Insecure Login
