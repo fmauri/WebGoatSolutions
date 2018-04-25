@@ -74,8 +74,27 @@ work in progress
 ---
 ## Coss-Site Scripting (XSS) [ ]
 ### Cross Site Scripting
-## Access Control Flaws
+#### 3
+* YES
+#### 7
+* Credit card number field
+```jss
+<script>alert('my javascript here')</script>
+```
+#### 10
+* 2 ways - start.mvc#test/
+  * go to lesson java file and check if condition
+  * go to GoatRoute.js and find the solution
+#### 11
+*
+## Access Control Flaws [ ]
 ### Insecure Direct Object References
+#### 2
+* tom cat
+#### 3
+* developer tools, send request, two attributes are userid and role
+#### 4
+* WebGoat/IDOR/profile/2343484
 ### Missing Function Level Access Control
 ## Insecure Communication
 ### Insecure Login
