@@ -2,6 +2,7 @@
 ## [General](./General/README.md)
 ## [Injection Flaws](./InjectionFlaws/README.md)
 ## [Authentication Flaws](./AuthenticationFlaws/README.md)
+## [Cross-site Scripting](./Cross-SiteScripting_XSS/README.md)
 ---
 ## Introduction [x]
 ### WebGoat [x]
