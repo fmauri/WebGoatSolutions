@@ -1,4 +1,5 @@
 # General
+## [Http Basics](./HttpBasics.md)
+## [Http Proxies](./HttpProxies.md)
+
 {% include HttpProxies.md %}
-##[Http Basics](./HttpBasis.md)
-##[Http Proxies](./HttpProxies.md)
