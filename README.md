@@ -1,6 +1,6 @@
 # WebGoat
 ## [General](./General/README.md)
-## [Injection Flaws](./Injeciton Flaws/README.md)
+## [Injection Flaws](./Injection Flaws/README.md)
 ---
 ## Introduction [x]
 ### WebGoat [x]
