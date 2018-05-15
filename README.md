@@ -1,5 +1,6 @@
 # WebGoat
-## Francesco Mauri
+## [General](./General/README.md)
+## [Injection Flaws](./Injeciton Flaws/README.md)
 ---
 ## Introduction [x]
 ### WebGoat [x]
