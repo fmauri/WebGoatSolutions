@@ -86,7 +86,7 @@ work in progress
   * go to lesson java file and check if condition
   * go to GoatRoute.js and find the solution
 #### 11
-*
+* url + <script>webgoat.customjs.phoneHome()
 ## Access Control Flaws [ ]
 ### Insecure Direct Object References
 #### 2
@@ -106,13 +106,21 @@ work in progress
 #### 4
 * Intercept HTTP, path to profile `WebGoat/IDOR/profile/2342384`
 ### Missing Function Level Access Control
+#### 2
+* Enough to access the console and analyse the html page and check for links or other important info that are just commented out. Like the Admin panel.
+#### 3
+*
 ## Insecure Communication
 ### Insecure Login
+* Intercept the login and use the intercepted credential to sign-in
 ## Request Forgeries
 ### Cross-Site Request Forgeries
+*
 ## Vulnerable Components - A9
 ### Vulnerable Components
+* It is enough to delete the content ```<contact></contact>```
 ## Client side
+* To solve all this tasks it is enough to search in the html the needed fields and modify them
 ### Client side filtering
 ### Bypass front-end restriction
 ### HTML tampering
