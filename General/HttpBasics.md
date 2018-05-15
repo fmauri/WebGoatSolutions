@@ -1,7 +1,7 @@
 ## HTTP Basics
 1. Open developer tools (Ctrl+Shif+I).
 2. For magic number take a look at form
-```http
+```html
 <form class="attack-form" accept-charset="UNKNOWN" method="POST" name="form"
 action="/WebGoat/HttpBasics/attack2" enctype="application/json;charset=UTF-8">
     <script>
