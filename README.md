@@ -7,6 +7,7 @@
 ## [Insecure Communication](./InsecureCommunication/README.md)
 ## [Request Forgeries](./RequestForgeries/README.md)
 ## [Vulnerable Components](./VulnerableComponents/README.md)
+## [Client Side](./ClientSide/README.md)
 ---
 ## Introduction [x]
 ### WebGoat [x]
