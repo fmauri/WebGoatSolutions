@@ -132,14 +132,3 @@ work in progress
 ### Client side filtering
 ### Bypass front-end restriction
 ### HTML tampering
-## Challenges
-### WebGoat Challenge
-### Admin lost password
-### Get it for free
-### Photo comments
-### Voting
-### Without password
-### Creating a new account
-### Admin Password
-### Without account
-### Changing password
