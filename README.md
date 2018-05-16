@@ -3,6 +3,7 @@
 ## [Injection Flaws](./InjectionFlaws/README.md)
 ## [Authentication Flaws](./AuthenticationFlaws/README.md)
 ## [Cross-site Scripting](./Cross-SiteScripting_XSS/README.md)
+## [Access Control Flaws](./AccessControlFlaws/README.md)
 ---
 ## Introduction [x]
 ### WebGoat [x]
@@ -35,7 +36,7 @@ asd' or true; select * from user_system_data; --
 ```SQL
 work in progress
 ```
-### SQL Injeciton mitigation
+### SQL Injection mitigation
 ```SQL
 1' or true order by (case when (hostname = 'webgoat-prd') hostname else status;
 ```
